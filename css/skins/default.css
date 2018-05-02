@@ -44,7 +44,7 @@
 		background: #ed900a;
 		background: -moz-linear-gradient(15deg, #ed900a 0%, #a63fb5 50%, #601ddd 100%);
 		background: -webkit-linear-gradient(45deg, #ed900a 0%,#a63fb5 50%,#601ddd 100%);
-		background: linear-gradient(45deg, #ed900a 0%,#a63fb5 50%,#601ddd 100%);
+		background: linear-gradient(45deg, #ed900a 0%, #a63fb5 50%, #601ddd 100%);
 	}
 
 	.bg-soft-gradient3:before,
@@ -120,7 +120,7 @@
 		position: relative;
 		background-color:#aaa;
 	}
-	
+
 	.gradient-progress-bar:before{
 		position: absolute; left:0; top:0; bottom:0; right: 0; content: ''; opacity: 0.9;
 		background: -moz-linear-gradient(90deg,  #448dff 0%, #c227ff 100%); /* FF3.6-15 */

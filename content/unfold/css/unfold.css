@@ -67,11 +67,11 @@
 			background: linear-gradient(45deg, #754ef4 0%,#327ffe 50%,#21cae9 100%);
 		}
 		.bg-soft-gradient1:before{
-			opacity: 0.9;
-			background: #4264d1; /* Old browsers */
-			background: -moz-linear-gradient(45deg,  #4264d1 0%, #819ff5 100%); /* FF3.6-15 */
-			background: -webkit-linear-gradient(45deg,  #4264d1 0%,#819ff5 100%); /* Chrome10-25,Safari5.1-6 */
-			background: linear-gradient(to 45deg,  #4264d1 0%,#819ff5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			opacity: 0.7;
+			background: #E26A6A; /* Old browsers */
+			background: -moz-linear-gradient(45deg,  #E26A6A 0%, #C0392B 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(45deg,  #E26A6A 0%,#C0392B 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to 45deg,  #E26A6A 0%,#C0392B 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		}
 		.bg-soft-gradient2:before{
 			opacity: 0.9;
