@@ -2,7 +2,7 @@
 
 //SMTP needs accurate times, and the PHP time zone MUST be set
 //This should be done in your php.ini, but this is how to do it if you don't have access to that
-date_default_timezone_set('Etc/UTC');
+date_default_timezone_set('Etc/CET');
 require 'PHPMailer/PHPMailerAutoload.php';
 
 //sumbission data
@@ -28,23 +28,23 @@ $mail->SMTPDebug = 2;
 //Ask for HTML-friendly debug output
 $mail->Debugoutput = 'html';
 //Set the hostname of the mail server
-$mail->Host = "smtp.example.com";
+$mail->Host = "smtp.world4you.com";
 //Set the SMTP port number - likely to be 25, 465 or 587
-$mail->Port = 587;
+$mail->Port = 25;
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
 //Username to use for SMTP authentication
-$mail->Username = "noreply@example.com";
+$mail->Username = "customer@gyn-hietzing.at";
 //Password to use for SMTP authentication
-$mail->Password = "yourpassword";
+$mail->Password = "Customer1";
 //Set who the message is to be sent from
-$mail->setFrom('noreply@example.com', 'Quadra Exclusive Theme');
+$mail->setFrom('customer@gyn-hietzing.at', 'Dr. Kerstin Aiginger');
 //Set an alternative reply-to address
 $mail->addReplyTo($email);
 //Set who the message is to be sent to
-$mail->addAddress('whoto@example.com', 'John Doe');
+$mail->addAddress('benedikt.berger@outlook.com', 'Dr. Kerstin Aiginger');
 //Set the subject line
-$mail->Subject = "New Message From Quadra - Quick contact form";
+$mail->Subject = "Quick Request Form - Website";
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 $mail->msgHTML( "<p>You have recieved a new message from the enquiries form on your website - Quick contact form.</p>
