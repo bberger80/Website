@@ -60,7 +60,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html">Leistungen</a></li>
                     <li><a href="info.html">Infos</a></li>
-                    <li><a href="index.html">Kontakt</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
                 </ul>
             </div>
             <!-- End Navigation Menu -->
@@ -387,34 +387,6 @@
 
 
 
-
-    <!-- Quick Contact Form -->
-    <div class="quick-contact-form border-colored">
-        <h5 class="uppercase t-center extrabold">Drop us a message</h5>
-        <p class="t-center normal">You're in the right place! Just drop us a message. How can we help?</p>
-        <!-- Contact Form -->
-        <form class="quick_form" name="quick_form" method="post" action="php/quick-contact-form.php">
-            <!-- Name -->
-            <input type="text" name="qname" id="qname" required placeholder="Name" class="no-mt">
-            <!-- Email -->
-            <input type="email" name="qemail" id="qemail" required placeholder="E-Mail">
-            <!-- Message -->
-            <textarea name="qmessage" id="qmessage" required placeholder="Message"></textarea>
-            <!-- Send Button -->
-            <button type="submit" id="qsubmit" class="bg-colored white qdr-hover-6 extrabold">SEND</button>
-            <!-- End Send Button -->
-        </form>
-        <!-- End Form -->
-    </div>
-    <!-- Contact us button -->
-    <a href="#" class="drop-msg click-effect dark-effect"><i class="fa fa-envelope-o"></i></a>
-    <!-- Back To Top -->
-    <a id="back-to-top" href="#top"><i class="fa fa-angle-up"></i></a>
-
-
-
-
-
     <!-- SEARCH FORM FOR NAV -->
     <div class="fs-searchform">
         <form id="fs-searchform" class="v-center container" action="pages-search-results.html" method="get">
@@ -462,12 +434,12 @@
     //*********************************************
 
         // Map Coordination - Map looks
-        var position = new google.maps.LatLng(40.7100, -73.9400);
+        var position = new google.maps.LatLng(48.172959, 16.276406);
         // First Marker Coordination
-        var myposition = new google.maps.LatLng(40.8200, -74.0800);
+        var myposition = new google.maps.LatLng(48.194464, 16.262552);
         // Map Options
         var myOptions = {
-            zoom: 11,
+            zoom: 13.5,
             center: position,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             disableDefaultUI: true,
@@ -478,7 +450,7 @@
             // Marker Images for first and second
             image = 'images/spital.png', image1 = 'images/office.png',
             // Your Title and description
-            contentString =  '<h4>' + 'Office 1' + '</h4><p>' + 'Your description is here.' +'</p>',
+            contentString =  '<h4>' + 'St. Josef Krankenhaus' + '</h4><p>' + 'Your description is here.' +'</p>',
             //Marker Position and image selector
             marker = new google.maps.Marker({ position: myposition, map: map, icon: image }),
             // Infowindow
@@ -488,7 +460,7 @@
 
         /* ========= Second Marker - You can remove this area if you do not use ========= */
         // Second Marker Coordination
-        var mypositionSecond = new google.maps.LatLng(40.6900, -73.7600),
+        var mypositionSecond = new google.maps.LatLng(48.168482, 16.285719),
             // Your Title and description
             contentStringSecond = '<h4>' + 'Office 2' + '</h4><p>' + 'Your description is here.' +'</p>',
             infowindowSecond = new google.maps.InfoWindow({ content: contentStringSecond }),
